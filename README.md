@@ -141,7 +141,7 @@ Converts each window into fixed shape:
 
 Sampling logic:
 
-* > 256 points → random sampling
+* >256 points → random sampling
 * <256 points → zero padding
 * 0 points → zero matrix
 
