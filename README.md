@@ -141,9 +141,9 @@ Converts each window into fixed shape:
 
 Sampling logic:
 
-* >256 points → random sampling
-* <256 points → zero padding
-* 0 points → zero matrix
+>256 points → random sampling
+<256 points → zero padding
+=256 points → unchanged
 
 ```
 python preprocessing/fixed_n_prepare.py
